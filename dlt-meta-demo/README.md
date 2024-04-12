@@ -21,7 +21,7 @@ This Demo launches Bronze and Silver DLT pipleines with following activities:
 
 5. ```pip install dlt-meta```
 
-6. Run the command ```python demo/launch_dais_demo.py --source=cloudfiles --uc_catalog_name=<<uc catalog name>> --cloud_provider_name=aws --dbr_version=13.3.x-scala2.12 --dbfs_path=dbfs:/dais-dlt-meta-demo-automated_new```
+6. Run the command ```python launch_dais_demo.py --source=cloudfiles --uc_catalog_name=<<uc catalog name>> --cloud_provider_name=aws --dbr_version=13.3.x-scala2.12 --dbfs_path=dbfs:/dais-dlt-meta-demo-automated_new```
     - cloud_provider_name : aws or azure or gcp
     - db_version : Databricks Runtime Version
     - dbfs_path : Path on your Databricks workspace where demo will be copied for launching DLT-META Pipelines
